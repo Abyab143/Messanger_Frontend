@@ -119,5 +119,6 @@ font-weight:bolder ;
     }
     .container_chat input{
       width: 280px;
+      color:white;
     }
 }
