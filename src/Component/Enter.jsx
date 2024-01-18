@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import Chat from "./Chat";
 import notification from "./notification.wav";
 
-const socket = io.connect("http://localhost:1000");
+const socket = io.connect("https://messanger-luul.onrender.com/");
 
 function Enter() {
   const [name, setname] = useState("");
